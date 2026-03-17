@@ -11,6 +11,7 @@ This project combines multiple AI models to process real-time camera input and m
 Understanding autonomous driving requires combining multiple complex systems — perception, decision-making, and real-time processing.
 
 This project was built to simulate how self-driving systems integrate multiple models to interpret road conditions and make driving decisions in real time.
+
 ![AUTODRIVE Demo](assets/demo.gif)
 ---
 
