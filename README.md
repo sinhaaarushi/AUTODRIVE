@@ -229,7 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Mehak Verma**
+**Aarushi Sinha**
 - GitHub: [@sinhaaarushi](https://github.com/sinhaaarushi)
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
 
@@ -242,9 +242,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- Email: your.email@example.com
+- Email: sinhaaarushi0702@gmail.com
 - Project Link: [https://github.com/sinhaaarushi/AUTODRIVE](https://github.com/sinhaaarushi/AUTODRIVE)
-
----
-
-⭐ **Star this repository if you found it helpful!**
