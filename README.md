@@ -1,8 +1,39 @@
-# 🚗 AUTODRIVE - AI-Powered Self-Driving Car Simulation
+#  AutoDrive — AI-Powered Self-Driving Car Simulation
 
-A comprehensive multi-model AI system for autonomous driving simulation using computer vision and deep learning technologies.
+An end-to-end autonomous driving simulation system built using computer vision and deep learning.
 
+This project combines multiple AI models to process real-time camera input and make driving decisions including steering prediction, lane detection, and object detection.
+
+---
+
+##  Why this project?
+
+Understanding autonomous driving requires combining multiple complex systems — perception, decision-making, and real-time processing.
+
+This project was built to simulate how self-driving systems integrate multiple models to interpret road conditions and make driving decisions in real time.
 ![AUTODRIVE Demo](assets/demo.gif)
+---
+
+##  What I built
+
+- A multi-model AI pipeline integrating:
+  - Steering angle prediction (CNN)
+  - Lane detection (YOLO segmentation)
+  - Object detection (YOLO)
+
+- Real-time inference system processing live frames
+- Multi-threaded execution for performance optimization
+- Visualization pipeline to overlay predictions on video feed
+
+---
+
+##  Key Highlights
+
+- Processes real-time frames for autonomous driving simulation
+- Integrates 3 different AI models into one pipeline
+- Designed for near real-time performance (~30 FPS)
+- Built complete training + inference workflow
+
 
 ## 🎯 Project Overview
 
