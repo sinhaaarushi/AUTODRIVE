@@ -40,6 +40,18 @@ This project was built to simulate how self-driving systems integrate multiple m
 
 AUTODRIVE is an advanced self-driving car simulation platform that combines multiple AI models to achieve autonomous driving capabilities. The system processes real-time camera feeds to predict steering angles, detect lanes, and identify objects on the road.
 
+## System Architecture
+The AutoDrive system integrates multiple AI models into a real-time autonomous driving pipeline:
+
+Camera Input → Preprocessing → 
+→ Lane Detection Model (YOLO Segmentation)
+→ Object Detection Model (YOLO Detection)
+→ Steering Angle Prediction Model (CNN)
+→ Multi-threaded Inference Engine
+→ Visualization & Driving Output
+
+The system runs all models concurrently using multi-threading to achieve near real-time performance.
+
 ## ✨ Key Features
 
 - **Real-time Steering Prediction**: Custom CNN model for accurate steering angle prediction
@@ -175,6 +187,15 @@ AUTODRIVE/
 - **Input**: Full resolution camera images
 - **Output**: Bounding boxes and class predictions
 - **Features**: Multi-class detection (vehicles, pedestrians, etc.)
+
+## Engineering Challenges
+Some key challenges addressed in this project:
+
+- Running multiple deep learning models concurrently
+- Optimizing inference pipeline for near real-time performance
+- Synchronizing outputs from lane detection, object detection, and steering prediction
+- Managing model loading and GPU memory usage
+- Designing modular architecture for training and inference
 
 ## 🎥 Demo Screenshots
 
